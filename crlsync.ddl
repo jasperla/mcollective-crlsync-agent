@@ -19,6 +19,6 @@ action "sync", :description => "Retrieve the latest CRL" do
         :maxlength   => 256
 
   output :output,
-         :description => 'Latest update of CRL',
-         :display_as  => 'Output'
+         :description => 'Last update of CRL',
+         :display_as  => 'Last update of CRL'
 end
